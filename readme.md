@@ -2,8 +2,8 @@
 
 - **Project Name:** VacayVibes
 - **Project By:** Harpreet Singh
-- [**LINK TO GITHUB**](http://www.github.com)
-- [**LINK TO DEPLOYED WEBSITE**](http://www.render.com)
+- [**LINK TO GITHUB**](https://github.com/Harp27/VacayVibes)
+- [**LINK TO DEPLOYED WEBSITE**](https://vacayvibes.onrender.com/)
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
 - [**LINK TO TRELLO**](http://www.render.com)
 
