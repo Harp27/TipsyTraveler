@@ -1,15 +1,15 @@
 # PROJECT 2
 
-- **Project Name:** VacayVibes
+- **Project Name:** TipsyTraveler
 - **Project By:** Harpreet Singh
-- [**LINK TO GITHUB**](https://github.com/Harp27/VacayVibes)
-- [**LINK TO DEPLOYED WEBSITE**](https://vacayvibes.onrender.com/)
+- [**LINK TO GITHUB**](https://github.com/Harp27/TipsyTraveler.git)
+- [**LINK TO DEPLOYED WEBSITE**](https://tipsytraveler.onrender.com/)
 - **List of Technologies used:** HTML, JS, CSS, Node, Express, EJS, Mongo
-- [**LINK TO TRELLO**](http://www.render.com)
+- [**LINK TO TRELLO**](https://trello.com/b/dV1f3Px3/tipsytraveler)
 
 ## Description
 
-".............."
+""
 
 ## Mock UP of UI
 
