@@ -21,8 +21,8 @@
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
 | /tipsy | get | list all locations |
-|/tipsy/:id | get | list one location |
-|/tipsy/edit | put | edit a location |
+| /tipsy/:id | get | list one location |
+| /tipsy/edit | put | edit a location |
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
