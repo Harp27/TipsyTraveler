@@ -20,9 +20,12 @@
 
 | ENDPOINT | METHOD | PURPOSE |
 |----------|--------|---------|
-| /tipsy | get | list all locations |
-| /tipsy/:id | get | list one location |
-| /tipsy/edit | put | edit a location |
+| /tipsy | GET | list all locations |
+| /tipsy/new | GET | render page to create new plant |
+| /tipsy/:id | DELETE | delete specified location |
+| /tipsy | POST | recieve new info and create location in database |
+| /tipsy/:id/edit | PUT | edit a location |
+| /tipsy/:id | GET | show page with specified location |
 
 ## ERD (ENTITY RELATIONSHIP DIAGRAM)
 
