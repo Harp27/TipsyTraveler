@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head.ejs") %>
+<body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+        <div>
+            <form action="/bar" method="POST">
+                <fieldset>
+                    <legend>Add a new Bar</legend>
+                    <label>Bar Name: <input type="text" name="barName" placeholder="Enter Bar Name"/></label>
+                    <label>Drink Picture URL: <input type="text" name="drink[picture]" placeholder="Enter Drink Picture URL"/></label>
+                    <label>Drink Description: <textarea name="drink[description]" placeholder="Enter Drink Description"></textarea></label>
+                    <label>Walkability Score: <input type="number" name="walkabilityScore" placeholder="Enter Walkability Score"/></label>
+                    <label>Crime Rate: <input type="number" name="crimeRate" placeholder="Enter Crime Rate"/></label>
+                    <label>Age Requirement: <input type="number" name="ageRequirement" placeholder="Enter Age Requirement"/></label>
+                    <label>Population: <input type="number" name="population" placeholder="Enter Population"/></label>
+                    
+                    <input type="submit" value="Add Bar"/>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+

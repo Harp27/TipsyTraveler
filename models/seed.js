@@ -13,7 +13,7 @@ mongoose.connection.on("open", async () => {
               description: 'The Sunflower cocktail is inspired by the essence of a mai tai, with Ten to One Dark Rum, Batavia Arrack (a Dutch distillate made from sugar cane and red Javanese rice), apricot eau de vie, and sunflower miso orgeat. ',
             },
             walkabilityScore: 92,
-            crimeRate: 363.80,
+            crimeRate: 49,
             ageRequirement: 21,
             population: 846000
           },  
