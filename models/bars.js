@@ -20,7 +20,15 @@ const barSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    crimeRate: {
+        type: Number,
+        required: true
+    },
     ageRequirement: {
+        type: Number,
+        required: true
+    },
+    population: {
         type: Number,
         required: true
     }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tipsy Traveler</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>Tipsy Traveler</h1>
+
+  <ul>
+    <% bars.forEach(bar => { %>
+      <li>
+        <h2><%= bar.barName %></h2>
+        <img src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
+        <p><%= bar.drink.description %></p>
+        <p>Walkability Score: <%= bar.walkabilityScore %></p>
+        <p>Crime Rate: <%= bar.crimeRate %></p>
+        <p>Age Requirement: <%= bar.ageRequirement %></p>
+        <p>Population: <%= bar.population %></p>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>

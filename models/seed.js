@@ -15,7 +15,7 @@ mongoose.connection.on("open", async () => {
             walkabilityScore: 92,
             crimeRate: 363.80,
             ageRequirement: 21,
-            population: 8468000,
+            population: 846000
           },  
     ]
 
