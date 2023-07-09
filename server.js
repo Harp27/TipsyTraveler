@@ -1,5 +1,6 @@
 // Import our dependencies
 require('dotenv').config(); // bring in our .env vars
+const connection = require("./models/connection.js")
 const express = require('express'); // web framework for node
 const morgan = require('morgan'); // logger for node
 const methodOverride = require('method-override'); // allows us to use PUT and DELETE methods
