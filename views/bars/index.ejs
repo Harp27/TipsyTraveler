@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("../partials/head.ejs") %>
+<body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+        <div>
+            <a href="/bar/new">Add new Bar</a>
+            <% for (bar of bars) { %>
+                <article>
+                    <a href="/bar/<%= bar._id %>">
+
+                    
+                    <h2>
+                        <%= bar.barName %>
+                    </h2>
+                    </a>
+                </article>
+                <% } %>
+        </div>
+    </main>
+    
+</body>
+</html>
+
+

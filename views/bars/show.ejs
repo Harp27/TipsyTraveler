@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head.ejs") %>
+<body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+      <div>
+        <article>
+          <h2><%= bar.barName %></h2>
+          <img src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
+          <p><%= bar.drink.description %></p>
+          <p>Walkability Score: <%= bar.walkabilityScore %></p>
+          <p>Crime Rate: <%= bar.crimeRate %></p>
+          <p>Age Requirement: <%= bar.ageRequirement %></p>
+          <p>Population: <%= bar.population %></p>
+        </article>
+      
+        <a href="/bar">Back to All Bars</a>
+      </div>
+      </main>
+      
+      </body>
+      </html>
