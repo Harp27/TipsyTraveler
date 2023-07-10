@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head.ejs") %>
+<body>
+    <%- include("../partials/header.ejs") %>
+    <main>
+        <div>
+            <form action="/bar/<%= bar._id %>?_method=PUT" method="POST">
+                <fieldset>
+                    <legend>Edit Bar: <%= bar.barName %></legend>
+                    <label>Bar Name: <input type="text" name="barName" value="<%= bar.barName %>" placeholder="Enter Bar Name"/></label>
+                    <label>Drink Picture URL: <input type="text" name="drink[picture]" value="<%= bar.drink.picture %>" placeholder="Enter Drink Picture URL"/></label>
+                    <label>Drink Description: <textarea name="drink[description]" placeholder="Enter Drink Description"><%= bar.drink.description %></textarea></label>
+                    <label>Walkability Score: <input type="number" name="walkabilityScore" value="<%= bar.walkabilityScore %>" placeholder="Enter Walkability Score"/></label>
+                    <label>Crime Rate: <input type="number" name="crimeRate" value="<%= bar.crimeRate %>" placeholder="Enter Crime Rate"/></label>
+                    <label>Age Requirement: <input type="number" name="ageRequirement" value="<%= bar.ageRequirement %>" placeholder="Enter Age Requirement"/></label>
+                    <label>Population: <input type="string" name="population" value="<%= bar.population %>" placeholder="Enter Population"/></label>
+                    
+                    <input type="submit" value="Update Bar"/>
+                </fieldset>
+            </form>
+            <form action="/bar/<%= bar._id %>?_method=DELETE" method="POST">
+                <input type="submit" value="Delete Bar"/>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

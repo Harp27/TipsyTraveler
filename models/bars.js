@@ -29,7 +29,7 @@ const barSchema = new mongoose.Schema({
         required: true
     },
     population: {
-        type: Number,
+        type: String,
         required: true
     }
 });
