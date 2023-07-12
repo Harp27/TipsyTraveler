@@ -7,12 +7,12 @@
       <div>
         <article>
           <h2><%= bar.barName %></h2>
-          <img src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
-          <p><%= bar.drink.description %></p>
           <p>Walkability Score: <%= bar.walkabilityScore %>/100</p>
           <p>Crime Rate: <%= bar.crimeRate %>/100</p>
           <p>Age Requirement: <%= bar.ageRequirement %></p>
           <p>Population: <%= bar.population %> Million</p>
+          <img src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
+          <p><%= bar.drink.description %></p>
         </article>
         <div class="button-container">
           <a href="/bar" class="button">Back to All Bars</a>

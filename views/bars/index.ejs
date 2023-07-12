@@ -4,19 +4,17 @@
 <body>
     <%- include("../partials/header.ejs") %>
     <main>
-        <div>
-            <a href="/bar/new">Add new Bar</a>
+        <div class="button-container">
             <% for (bar of bars) { %>
                 <article>
                     <a href="/bar/<%= bar._id %>">
-
-                    
                     <h2>
                         <%= bar.barName %>
                     </h2>
                     </a>
                 </article>
                 <% } %>
+                <a href="/bar/new" class="add-button">Add new Bar</a>
         </div>
     </main>
     
