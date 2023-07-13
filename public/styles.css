@@ -1,80 +1,111 @@
+body {
+  background-image: url("https://i.imgur.com/SCZZOw1.jpg");
+  background-size: cover;
+}
 
-  body {
-    background-image: url("https://i.imgur.com/SCZZOw1.jpg");
-    background-size: cover;
-  }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    
-  }
-  
-  .logo {
-    width: 350px;
-    margin: 0 auto;
-  }
-  
-  .add-button {
-    margin-top: 20px;
-  }
+.logo {
+  width: 350px;
+  margin: 0 auto;
+}
 
-  .input {
-    color: wheat;
-  }
+.add-button {
+  margin-top: 20px;
+}
 
-  .input::placeholder {
-    font-weight: bold;
-    color: white;
-  }
+.input {
+  color: wheat;
+}
 
-  img {
-    border-radius: 50px;
-    height: 300px;
-    width: 350px;
-    object-fit: cover;    
-    margin: 0 auto;
-  }
+.input::placeholder {
+  font-weight: bold;
+  color: white;
+}
 
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color:antiquewhite
-  }
-  
-  .button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+img {
+  border-radius: 50px;
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
+  margin: 0 auto;
+}
 
-  }
-  
-  a {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 24px;
-    font-family: sans-serif;
-    text-decoration: none;
-    color: #333;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    padding: 10px;
-    letter-spacing: 2px;
-    transition: all .25s;
-  
-  }
-  
-  a:hover {
-    letter-spacing: 15px;
-    color: azure;
-  }
-  
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 300px;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 20px;
+}
+
+.button-container > * {
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+}
+
+a:hover,
+.bar-item a:hover,
+.bar-item a:hover h2 {
+  letter-spacing: 15px;
+  color: azure;
+}
+
+.bar-item {
+  text-align: center;
+}
+
+.bar-item a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+}
+
+.bar-item a:hover {
+  letter-spacing: 10px;
+}
+
+.bar-item h2 {
+  white-space: nowrap;
+}
