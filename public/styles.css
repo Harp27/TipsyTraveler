@@ -29,3 +29,12 @@
   .add-button {
     margin-top: 20px;
   }
+
+  .input {
+    color: wheat;
+  }
+
+  .input::placeholder {
+    font-weight: bold;
+    color: white;
+  }
