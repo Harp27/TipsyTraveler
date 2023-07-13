@@ -38,3 +38,30 @@
     font-weight: bold;
     color: white;
   }
+
+  img {
+    border-radius: 50px;
+    height: 300px;
+    width: 350px;
+    object-fit: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:antiquewhite
+  }
+
+  a {
+    color:brown
+  }
+
+  a:hover {
+    color:azure
+  }

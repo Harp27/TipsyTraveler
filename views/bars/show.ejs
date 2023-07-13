@@ -6,12 +6,13 @@
     <main>
       <div>
         <article>
+          <div class="content">
           <h2><%= bar.barName %></h2>
           <p>Walkability Score: <%= bar.walkabilityScore %>/100</p>
           <p>Crime Rate: <%= bar.crimeRate %>/100</p>
           <p>Age Requirement: <%= bar.ageRequirement %></p>
           <p>Population: <%= bar.population %> Million</p>
-          <img src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
+          <img class="img" src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
           <p><%= bar.drink.description %></p>
         </article>
         <div class="button-container">
@@ -20,6 +21,7 @@
           <form action="/bar/<%= bar._id %>/?_method=DELETE" method="POST">
             <button type="submit" class="button">Delete Bar</button>
           </form>
+        </div>
         </div>
       </div>
       </main>
