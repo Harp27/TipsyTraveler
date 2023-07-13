@@ -1,3 +1,4 @@
+
 body {
   background-image: url("https://i.imgur.com/SCZZOw1.jpg");
   background-size: cover;
@@ -42,7 +43,44 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: antiquewhite;
+  color: orange;
+}
+
+.button-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-show > * {
+  margin-bottom: 10px;
+}
+
+.button-show a.button {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: orange;
+  background-color: transparent;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+  text-align: center;
+  box-sizing: border-box;
+  height: 55px;
+}
+
+.button-show a.button:hover {
+  letter-spacing: 15px;
+  color: azure;
+  background-color: transparent;
 }
 
 .button-container {
@@ -62,6 +100,7 @@ img {
 
 .button-container > * {
   margin-bottom: 10px;
+  background-color: transparent;
 }
 
 a {
@@ -110,4 +149,32 @@ a:hover,
 
 .bar-item h2 {
   white-space: nowrap;
+}
+
+.button-container a.button,
+.button-container button.button {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: orange;
+  background-color: transparent;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all .25s;
+  text-align: center;
+  box-sizing: border-box;
+  height: 55px;
+}
+
+.button-container a.button:hover,
+.button-container button.button:hover {
+  letter-spacing: 15px;
+  color: azure;
+  background-color: transparent;
 }
