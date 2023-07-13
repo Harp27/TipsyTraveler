@@ -44,6 +44,7 @@ img {
   align-items: center;
   justify-content: center;
   color: orange;
+  margin-bottom: 20px;
 }
 
 .button-show {
@@ -92,7 +93,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 300px;
+  margin-top: 700px;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 400px;
   padding: 0 20px;
@@ -175,6 +177,6 @@ a:hover,
 .button-container a.button:hover,
 .button-container button.button:hover {
   letter-spacing: 15px;
-  color: azure;
+  color: green;
   background-color: transparent;
 }
