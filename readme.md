@@ -13,7 +13,7 @@ The Tipsy Traveler is an app that allows users to explore various locations and 
 
 ## Mock UP of UI
 
-- ![Homepage](./images/homepage.png)
+- ![Homepage](./images/home.png)
 - ![Show Page](./images/show-page.png)
 - ![Edit & Delete](./images/edit-page.png)
 - ![Mobile View](./images/mobile.png)
