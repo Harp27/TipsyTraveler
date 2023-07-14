@@ -15,11 +15,11 @@
           <img class="img" src="<%= bar.drink.picture %>" alt="<%= bar.barName %>">
           <p><%= bar.drink.description %></p>
         </article>
-        <div class="button-container">
+        <div class="button-show">
           <a href="/bar" class="button">Back to All Bars</a>
           <a href="/bar/<%= bar._id %>/edit" class="button">Edit</a>
           <form action="/bar/<%= bar._id %>/?_method=DELETE" method="POST">
-            <button type="submit" class="button">Delete Bar</button>
+            <button type="submit">Delete Bar</button>
           </form>
         </div>
         </div>

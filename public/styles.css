@@ -80,7 +80,7 @@ img {
 
 .button-show a.button:hover {
   letter-spacing: 15px;
-  color: azure;
+  color: green;
   background-color: transparent;
 }
 
@@ -93,7 +93,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 700px;
+  margin-top: 300px;
   margin-bottom: 20px;
   width: 100%;
   max-width: 400px;
@@ -178,5 +178,38 @@ a:hover,
 .button-container button.button:hover {
   letter-spacing: 15px;
   color: green;
+  background-color: transparent;
+}
+
+.button-show form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-show form button {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: orange;
+  background-color: transparent;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  letter-spacing: 2px;
+  transition: all 0.25s;
+  text-align: center;
+  box-sizing: border-box;
+  height: 55px;
+}
+
+.button-show form button:hover {
+  letter-spacing: 15px;
+  color: azure;
   background-color: transparent;
 }
