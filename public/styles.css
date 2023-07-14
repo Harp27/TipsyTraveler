@@ -222,7 +222,7 @@ a:hover,
 
 .button-show form button:hover {
   letter-spacing: 15px;
-  color: azure;
+  color: red;
   background-color: transparent;
 }
 
@@ -257,3 +257,4 @@ a:hover,
   border: 1px solid whitesmoke;
   color: orange;
 }
+
