@@ -1,6 +1,4 @@
-# PROJECT 2
-
-- **Project Name:** TipsyTraveler
+  TipsyTraveler
 - **Project By:** Harpreet Singh
 - [**LINK TO GITHUB**](https://github.com/Harp27/TipsyTraveler.git)
 - [**LINK TO DEPLOYED WEBSITE**](https://tipsytraveler.onrender.com/)
