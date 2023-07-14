@@ -10,11 +10,11 @@
                     <legend>Edit Bar: <%= bar.barName %></legend>
                     <label>Bar Name: <input class="input" type="text" name="barName" value="<%= bar.barName %>" placeholder="Enter Bar Name"/></label>
                     <label>Drink Picture URL: <input class="input" type="text" name="drink[picture]" value="<%= bar.drink.picture %>" placeholder="Enter Drink Picture URL"/></label>
-                    <label>Drink Description: <textarea class="input" name="drink[description]" placeholder="Enter Drink Description"><%= bar.drink.description %></textarea></label>
+                    <label>Drink Description: <textarea class="input-description" name="drink[description]" placeholder="Enter Drink Description"><%= bar.drink.description %></textarea></label>
                     <label>Walkability Score: <input class="input" type="number" name="walkabilityScore" value="<%= bar.walkabilityScore %>" placeholder="Enter Walkability Score"/></label>
                     <label>Crime Rate: <input class="input" type="number" name="crimeRate" value="<%= bar.crimeRate %>" placeholder="Enter Crime Rate"/></label>
                     <label>Age Requirement: <input class="input" type="number" name="ageRequirement" value="<%= bar.ageRequirement %>" placeholder="Enter Age Requirement"/></label>
-                    <label>Population: <input class="input" type="string" name="population" value="<%= bar.population %>" placeholder="Enter Population"/></label>
+                    <label>Population: <input class="input-population" type="string" name="population" value="<%= bar.population %>" placeholder="Enter Population"/></label>
                     <input type="submit" value="Update Bar"/>
                 </fieldset>
             </form>

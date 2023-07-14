@@ -22,13 +22,25 @@ body {
 }
 
 .input {
-  color: wheat;
+  color: orange;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.25s;
 }
 
 .input::placeholder {
-  font-weight: bold;
-  color: white;
+  color: orange;
+  opacity: 75%;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.25s;
 }
+
 
 img {
   border-radius: 50px;
@@ -212,4 +224,36 @@ a:hover,
   letter-spacing: 15px;
   color: azure;
   background-color: transparent;
+}
+
+.input-population {
+  width: 100%;
+  color: orange;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.25s;
+}
+
+.input-description {
+  border: 1px solid whitesmoke;
+  color: orange;
+}
+
+.population-input {
+  width: 100%;
+  color: orange;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.25s;
+}
+
+.description-input {
+  border: 1px solid whitesmoke;
+  color: orange;
 }
